@@ -1075,7 +1075,7 @@ section,
 
   .specials .nav-link.active {
     color:#ffffff;
-    background: #ff9900;
+    background: #b56dd4;
   }
 }
 
@@ -1207,7 +1207,7 @@ faq
 }
 
 .abaut-img {
-  padding-top: 100px;
+  padding-top: 0px;
   }
   
 
@@ -1743,15 +1743,16 @@ border-top-left-radius: 10%;
   inset: 0;
   z-index: 3;
   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-  background: #f2f2f2;
-  border-top-left-radius: 20%;
-  padding: 15px;
+  text-align: center;
+
+  border-top-left-radius: 10%;
+
 }
 
 /* Mostrar .portfolio-info cuando se hace hover sobre .portfolio-content */
 .portfolio .portfolio-content:hover .portfolio-info {
   opacity: 1;
-  transform: translateY(200px);
+  transform: translateY(230px);
 }
 
 
